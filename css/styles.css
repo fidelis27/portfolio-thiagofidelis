@@ -1,0 +1,284 @@
+:root {
+    --colorFont:#f27609;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    
+    
+}
+body {
+    background-color:#2b2b2b;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.nav {
+    
+    line-height: 50px;
+    font-weight: 100;
+    animation-name: nav; 
+    animation-duration: 4s;
+   
+}
+.nav ul {
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav li{
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+
+}
+.nav a:hover {
+    color: var(--colorFont) ;
+}
+
+.nav li.threeline-icon {
+    display: none;
+}
+
+.content div{   
+    display: inline-block;
+    height: 650px;
+    
+}
+
+.profile {
+    width: 40%;    
+    text-align: center;  
+    animation-name: profile-capa; 
+    animation-duration: 5s;
+}
+.profile img{
+    width: 270px;       
+    border-radius:270px ;
+    margin-top: 100px;  
+}
+.title {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;   
+    color: white;     
+    animation-name: title-capa; 
+    animation-duration: 5s; 
+}
+.title h1 {
+    margin-top: 130px;  
+    font-weight: 400;
+    font-size: 58px;
+    display: inline-block;
+    line-height: 58px;
+    
+}
+.title h2 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 0;
+    
+    
+}
+.title span {
+    color:var(--colorFont);
+    display: block;   
+}
+
+.main {
+    padding:80px 150px 80px 100px ;
+    font-size: 16px;
+    animation-name: main; 
+    animation-duration: 3s;
+}
+.pic-resume {
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.main h1 {
+    color: white;
+    font-weight: normal;
+    
+}
+
+.main h2 {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.main h3 {
+    color: var(--colorFont);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.main p {
+    color:white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+}
+.caminho {
+    list-style: none;
+    color: grey;
+    padding-left: 0;    
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.caminho a {
+    color: grey;
+}
+
+.social-img {
+    width: 50px;
+    margin-right: 10px;
+    background-color:#2b2b2b
+}
+
+.logo-whats {
+    display: inline-block;
+    
+}
+.icons {
+    background-color: white;
+}
+
+.miniatura {
+    width: 230px;
+    height: 230px;    
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.miniatura a {
+    text-decoration: none;
+    
+}
+
+.blackbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    padding-top: 100px;
+    transition: 1s;
+    
+    
+}
+
+.blackbox:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+.blackbox-text {
+    text-align: center;
+}
+.blackbox-text h1 {
+    font-size: 16px;
+    color: var(--colorFont);
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.blackbox-text h2 {
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.foto-trabalhos {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+}
+
+.back-link {
+    color: var(--colorFont);
+    display: block;
+}
+
+@keyframes profile-capa {
+    0% {opacity: 0; transform:translate(0px,30px)}
+    100% {opacity: 1; transform:translate(0px,0px)}
+}
+
+@keyframes title-capa {
+    0% {opacity: 0; transform:translate(0px,-30px)}
+    100% {opacity: 1; transform:translate(0px,0px)}
+}
+
+@keyframes nav {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes main {
+    0% {opacity: 0; transform:translate(-20px,0px)}
+    100% {opacity: 1; transform:translate(0px,0px)}
+}
+
+@media(max-width: 800px){
+    .nav li {
+        display: none;
+    }  
+    .nav li.threeline-icon {
+        display: inline-block;
+    }
+    .content div{   
+        display: block;
+        height: auto;
+        
+    }
+    
+    .profile {
+        width: 100%;
+    }
+    .profile img {
+        margin-top: 0px;
+        max-width: 80%; 
+    }
+    
+    .title {
+        
+        width: 100%;
+        text-align: center;
+        
+    }
+    .title h1 {
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .title h2 {
+                margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
