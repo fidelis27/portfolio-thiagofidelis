@@ -245,10 +245,10 @@ body {
 
 @media(max-width: 800px){
     .nav li {
-        display: none;
+        
     }  
     .nav li.threeline-icon {
-        display: inline-block;
+        
     }
     .content div{   
         display: block;
