@@ -281,8 +281,9 @@ body {
         margin-right: 20px;
     }
     .main{
-        padding:40px 20px 40px 20px ;
+        padding:40px;
         width:100%;
+        text-align: "center";
         
     }
      .port-min div{
