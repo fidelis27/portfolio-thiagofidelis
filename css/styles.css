@@ -1,106 +1,107 @@
 :root {
-    --colorFont:#f27609;
+    --colorFont: #f27609;
 }
 
 html, body {
     padding: 0;
     margin: 0;
     font-size: 0;
-    
-    
 }
+
 body {
-    background-color:#2b2b2b;
+    background-color: #2b2b2b;
     font-family: 'Montserrat', sans-serif !important;
 }
 
 .nav {
-    
     line-height: 50px;
     font-weight: 100;
-    animation-name: nav; 
+    animation-name: nav;
     animation-duration: 4s;
-   
 }
+
 .nav ul {
     line-height: 50px;
     text-align: center;
     padding: 0;
     margin: 0;
 }
-.nav li{
+
+.nav li {
     display: inline-block;
     list-style: none;
     font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
-
 }
+
 .nav a {
     text-decoration: none;
     color: white;
-
 }
+
 .nav a:hover {
-    color: var(--colorFont) ;
+    color: var(--colorFont);
 }
 
 .nav li.threeline-icon {
     display: none;
 }
 
-.content div{   
+.content div {
     display: inline-block;
     height: 650px;
-    
 }
 
 .profile {
-    width: 40%;    
-    text-align: center;  
-    animation-name: profile-capa; 
+    width: 40%;
+    text-align: center;
+    animation-name: profile-capa;
     animation-duration: 5s;
 }
-.profile img{
-    width: 270px;       
-    border-radius:270px ;
-    margin-top: 100px;  
+
+.profile img {
+    width: 270px;
+    border-radius: 270px;
+    margin-top: 100px;
 }
+
 .title {
     display: inline-block;
     width: 60%;
-    vertical-align: top;   
-    color: white;     
-    animation-name: title-capa; 
-    animation-duration: 5s; 
+    vertical-align: top;
+    color: white;
+    animation-name: title-capa;
+    animation-duration: 5s;
 }
+
 .title h1 {
-    margin-top: 130px;  
+    margin-top: 130px;
     font-weight: 400;
     font-size: 58px;
     display: inline-block;
     line-height: 58px;
-    
 }
+
 .title h2 {
     font-weight: 100;
     font-size: 18px;
     margin-top: 0;
-    
-    
 }
+
 .title span {
-    color:var(--colorFont);
-    display: block;   
+    color: var(--colorFont);
+    display: block;
 }
 
 .main {
-    padding:80px 150px 80px 100px ;
+    padding: 80px 150px 80px 100px;
     font-size: 16px;
-    animation-name: main; 
+    animation-name: main;
     animation-duration: 3s;
 }
+
 .pic-resume {
     float: left;
     width: 200px;
@@ -111,7 +112,6 @@ body {
 .main h1 {
     color: white;
     font-weight: normal;
-    
 }
 
 .main h2 {
@@ -129,16 +129,17 @@ body {
 }
 
 .main p {
-    color:white;
+    color: white;
     font-size: 18px;
     font-weight: 100;
     line-height: 24px;
     text-align: justify;
 }
+
 .caminho {
     list-style: none;
     color: grey;
-    padding-left: 0;    
+    padding-left: 0;
 }
 
 .caminho li {
@@ -152,30 +153,29 @@ body {
 .social-img {
     width: 50px;
     margin-right: 10px;
-    background-color:#2b2b2b
+    background-color: #2b2b2b
 }
 
 .logo-whats {
     display: inline-block;
-    
 }
+
 .icons {
     background-color: white;
 }
 
 .miniatura {
     width: 230px;
-    height: 230px;    
+    height: 230px;
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 15px;
     background-size: cover;
     overflow: hidden;
-    
 }
+
 .miniatura a {
     text-decoration: none;
-    
 }
 
 .blackbox {
@@ -185,17 +185,17 @@ body {
     opacity: 0;
     padding-top: 100px;
     transition: 1s;
-    
-    
 }
 
 .blackbox:hover {
     opacity: 0.8;
     transition: 1s;
 }
+
 .blackbox-text {
     text-align: center;
 }
+
 .blackbox-text h1 {
     font-size: 16px;
     color: var(--colorFont);
@@ -213,8 +213,6 @@ body {
     width: 50%;
     margin-bottom: 10px;
     margin-top: 10px;
-    
-
 }
 
 .back-link {
@@ -223,52 +221,75 @@ body {
 }
 
 @keyframes profile-capa {
-    0% {opacity: 0; transform:translate(0px,30px)}
-    100% {opacity: 1; transform:translate(0px,0px)}
+    0% {
+        opacity: 0;
+        transform: translate(0px, 30px)
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px)
+    }
 }
 
 @keyframes title-capa {
-    0% {opacity: 0; transform:translate(0px,-30px)}
-    100% {opacity: 1; transform:translate(0px,0px)}
+    0% {
+        opacity: 0;
+        transform: translate(0px, -30px)
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px)
+    }
 }
 
 @keyframes nav {
-    0% {opacity: 0;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes main {
-    0% {opacity: 0; transform:translate(-20px,0px)}
-    100% {opacity: 1; transform:translate(0px,0px)}
+    0% {
+        opacity: 0;
+        transform: translate(-20px, 0px)
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px)
+    }
 }
 
-@media(max-width: 600px){
-    .nav li {
-        
-    }  
-    .nav li.threeline-icon {
-        
+@media(max-width: 1000px) {
+    .main .port-title{
+        text-align: center;
     }
-    .content div{   
+    .nav li {
+        padding: 0;
+        padding-right:8px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .nav li.threeline-icon {}
+    .content div {
         display: block;
         height: auto;
-        
     }
-    
     .profile {
         width: 100%;
     }
     .profile img {
         margin-top: 0px;
-        max-width: 80%; 
+        max-width: 80%;
     }
-    
     .title {
-        
         width: 100%;
         text-align: center;
-        
     }
     .title h1 {
         margin-top: 30px;
@@ -277,25 +298,18 @@ body {
         margin-right: 20px;
     }
     .title h2 {
-                margin-left: 20px;
+        margin-left: 20px;
         margin-right: 20px;
     }
-    .main{
-        padding:40px 50px 40px 50px ;
+    .main {
+        padding: 40px 50px 40px 50px;
         width: 80%;
-        
-        
-        
     }
     .container {
         text-align: center;
     }
-    .port-min {
-        display: block;
-        width:100%;
-    }
     .miniatura {
-        width:100%;
+        width: 300px;
+        height: 300px;
     }
-    
 }
