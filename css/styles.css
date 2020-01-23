@@ -288,6 +288,9 @@ body {
     }
      .port-min div{
      display: block;
+     text-align: "center";
+     align-items: center;
+    
      
      height: auto;
       width:80%;
@@ -296,9 +299,7 @@ body {
      .miniatura {
       width: 800px;
       height: 800px;
-      text-align: "center";
-      align-items: center;
-    
+      
     }
     
 }
