@@ -282,6 +282,7 @@ body {
     }
     .main{
         padding:40px 0px 40px 0px ;
+        display: block;
         
     }
      .miniatura {
