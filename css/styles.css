@@ -288,6 +288,7 @@ body {
     }
      .port-min div{
      display: block;
+     height: auto;
      
     }
      .miniatura {
