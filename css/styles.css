@@ -283,12 +283,12 @@ body {
     .main{
         padding:40px;
         width:100%;
-        text-align: "center";
+        
         
     }
      .port-min div{
      display: block;
-     align-items: center;
+     
      height: auto;
       width:80%;
      
@@ -296,6 +296,8 @@ body {
      .miniatura {
       width: 600px;
       height: 600px;
+      text-align: "center";
+      align-items: center;
     
     }
     
