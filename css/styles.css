@@ -282,7 +282,16 @@ body {
     }
     .main{
         padding:40px 50px 40px 50px ;
+        width: 80%;
         
+        
+    }
+    .port-min {
+        display: block;
+        width:100%;
+    }
+    .miniatura {
+        width:100%;
     }
     
 }
