@@ -307,6 +307,9 @@ body {
     }
     .container {
         text-align: center;
+        display: block;
+        height: auto;
+        width: 100%;
     }
     .miniatura {
         width: 300px;
