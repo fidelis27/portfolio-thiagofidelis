@@ -285,6 +285,10 @@ body {
         width: 80%;
         
         
+        
+    }
+    .container {
+        text-align: center;
     }
     .port-min {
         display: block;
