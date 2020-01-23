@@ -285,9 +285,10 @@ body {
         display: 
         
     }
-     .port-min{
+     .port-min div{
      display: block;
      width: 100%;
+     height:100%;
     }
      .miniatura {
      width: 100%;
