@@ -243,7 +243,7 @@ body {
     100% {opacity: 1; transform:translate(0px,0px)}
 }
 
-@media(max-width: 800px){
+@media(max-width: 600px){
     .nav li {
         
     }  
@@ -282,10 +282,7 @@ body {
     }
     .main{
         padding:40px 50px 40px 50px ;
-
-    }
-    .miniatura {
-        width: 100%;
+        
     }
     
 }
