@@ -282,8 +282,12 @@ body {
     }
     .main{
         padding:40px 0px 40px 0px ;
-        display: block;
+        display: 
         
+    }
+     .port-min{
+     display: block;
+     width: 100%;
     }
      .miniatura {
      width: 100%;
