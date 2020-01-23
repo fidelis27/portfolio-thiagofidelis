@@ -289,10 +289,12 @@ body {
      .port-min div{
      display: block;
      height: auto;
+      width:80%;
      
     }
      .miniatura {
-     width: 80%;
+      width: 200px;
+      height: 200px;
     
     }
     
