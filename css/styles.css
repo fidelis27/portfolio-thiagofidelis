@@ -68,21 +68,25 @@ body {
     text-align: center;
     animation-name: profile-capa;
     animation-duration: 5s;
+    
 }
 
 .profile img {
     width: 270px;
     border-radius: 270px;
     margin-top: 100px;
+    
 }
 
 .title {
+    
     display: inline-block;
     width: 60%;
     vertical-align: top;
     color: white;
     animation-name: title-capa;
     animation-duration: 5s;
+   
 }
 
 .title h1 {
@@ -91,6 +95,7 @@ body {
     font-size: 58px;
     display: inline-block;
     line-height: 58px;
+   
 }
 
 .title h2 {
@@ -227,6 +232,17 @@ body {
 .back-link {
     color: var(--colorFont);
     display: block;
+    margin: 12px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1c1c1c;
+    height: 30px;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes profile-capa {
