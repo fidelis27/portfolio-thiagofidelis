@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,39 @@
     <link rel="shortcut icon" href="assets/img/icon.jpg">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script type="text/javascript">
+
     <title>THIAGO FIDELIS</title>
 </head>
+
+
 <body>
 
-    <div class="nav">
+    <div id="nav" class="nav">
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="portfolio.html">PORTFOLIO</a></li>
             <li><a href="resume.html">CURRÍCULO</a></li>
             <li><a href="contact.html">CONTATO</a></li>
-            <li class="threeline-icon">&#9776;</li>
-            <li class="icon">
-                <a id="3line" href="javascript:void(0);" onclick="myFunction()">☰</a>
-                  </li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+
         </ul>
     </div>
+    
     <div class="content">
         <div class="profile">
             <img src="assets/img/profile.jpg" alt="profile">
         </div>
         <div class="title">
             <h1>THIAGO <span>RAFAEL FIDELIS </span></h1>
-            
+
             <h2>FullStack - FrontEnd - ReactJS - NodeJS - ReactNative</h2>
-            
-            
+
+
         </div>
-        
+
     </div>
-    
+
 </body>
+
 </html>
