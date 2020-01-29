@@ -11,6 +11,7 @@ html, body {
 body {
     background-color: #2b2b2b;
     font-family: 'Montserrat', sans-serif !important;
+    
 }
 
 .nav {
@@ -114,6 +115,8 @@ body {
     font-size: 16px;
     animation-name: main;
     animation-duration: 3s;
+    height: 100%;
+    
 }
 
 .pic-resume {
@@ -232,17 +235,20 @@ body {
 .back-link {
     color: var(--colorFont);
     display: block;
-    margin: 12px;
+    margin-top: 25px;
 }
 
 .footer {
-    display: flex;
+    margin: 0;
+    padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	font-weight: 100;
+	color: white;
+	width: 100%;
+	text-align: center;
     background-color: #1c1c1c;
-    height: 30px;
-    font-size: 12px;
-    color: white;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 @keyframes profile-capa {
@@ -327,7 +333,7 @@ body {
         margin-right: 20px;
     }
     .main {
-        padding: 10px 5% 40px 5%;
+        
     }
     .main p {
         text-align: left;
@@ -365,6 +371,11 @@ body {
         border-bottom: solid grey 1px;
         width: 100%;
         padding:0;
+    }
+    .back-link {
+        color: var(--colorFont);
+        display: block;
+        margin-top: 40px;
     }
     
 }
