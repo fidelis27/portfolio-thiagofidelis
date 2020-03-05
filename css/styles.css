@@ -9,18 +9,18 @@ html, body {
 }
 
 body {
-    background-color: #2b2b2b;
+    background: linear-gradient(to bottom, #2b2b2b 0%, #191919 100%);
+    ;
+    ;
     font-family: 'Montserrat', sans-serif !important;
-    
 }
 
 .nav {
     height: 50px;
     color: white;
     background-color: #2b2b2b;
-    
     animation-name: nav;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 .nav ul {
@@ -36,9 +36,8 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     line-height: 50px;
-    font-size: 18px;       
+    font-size: 18px;
     font-weight: 100;
-
 }
 
 .nav a {
@@ -52,8 +51,8 @@ body {
 
 .nav li.threeline-icon {
     display: none;
-
 }
+
 .nav li.threeline-icon:hover {
     color: var(--colorFont);
     cursor: pointer;
@@ -69,25 +68,21 @@ body {
     text-align: center;
     animation-name: profile-capa;
     animation-duration: 5s;
-    
 }
 
 .profile img {
     width: 270px;
     border-radius: 270px;
     margin-top: 100px;
-    
 }
 
 .title {
-    
     display: inline-block;
     width: 60%;
     vertical-align: top;
     color: white;
     animation-name: title-capa;
-    animation-duration: 5s;
-   
+    animation-duration: 2s;
 }
 
 .title h1 {
@@ -96,7 +91,6 @@ body {
     font-size: 58px;
     display: inline-block;
     line-height: 58px;
-   
 }
 
 .title h2 {
@@ -114,9 +108,8 @@ body {
     padding: 80px 150px 80px 100px;
     font-size: 16px;
     animation-name: main;
-    animation-duration: 3s;
+    animation-duration: 2s;
     height: 100%;
-    
 }
 
 .pic-resume {
@@ -165,6 +158,40 @@ body {
 
 .caminho a {
     color: grey;
+}
+
+.col1 {
+    display: inline-block; 
+    text-align: center;  
+ 
+}
+
+.col2 {
+    display: inline-block;  
+    text-align: center; 
+        
+}
+
+.btnSkills {
+    margin: 5px 0 0;
+    height: 44px;
+    background: var(--colorFont);
+    font-weight: 100;
+    border: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 5px;
+    
+}
+
+.btnSkills:hover {
+    background: #d36403;
+}
+
+.btnSkills a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
 }
 
 .social-img {
@@ -241,14 +268,13 @@ body {
 .footer {
     margin: 0;
     padding-top: 5px;
-	padding-bottom: 5px;
-	font-size: 16px;
-	font-weight: 100;
-	color: white;
-	width: 100%;
-	text-align: center;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    width: 100%;
+    text-align: center;
     background-color: #1c1c1c;
-   
 }
 
 @keyframes profile-capa {
@@ -305,7 +331,6 @@ body {
     }
     .nav li.threeline-icon {
         display: inline-block;
-        
     }
     .content div {
         display: block;
@@ -356,7 +381,6 @@ body {
         opacity: 0.8;
     }
     .menujs {
-        
         height: auto;
         margin-bottom: 5%;
     }
@@ -370,7 +394,7 @@ body {
         display: block;
         border-bottom: solid grey 1px;
         width: 100%;
-        padding:0;
+        padding: 0;
     }
     .back-link {
         color: var(--colorFont);
@@ -380,5 +404,4 @@ body {
     .footer {
         font-size: 12px;
     }
-    
 }
