@@ -2,7 +2,8 @@
     --colorFont: #f27609;
 }
 
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     font-size: 0;
@@ -161,15 +162,13 @@ body {
 }
 
 .col1 {
-    display: inline-block; 
-    text-align: center;  
- 
+    display: inline-block;
+    text-align: center;
 }
 
 .col2 {
-    display: inline-block;  
-    text-align: center; 
-        
+    display: inline-block;
+    text-align: center;
 }
 
 .btnSkills {
@@ -181,7 +180,6 @@ body {
     border-radius: 4px;
     font-size: 12px;
     margin: 5px;
-    
 }
 
 .btnSkills:hover {
@@ -207,6 +205,7 @@ body {
 .icons {
     background-color: white;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -221,16 +220,16 @@ body {
     margin-bottom: 30px;
     align-items: center;
 }
+
 .miniatura {
     display: block;
-    width: 330px;
-    height: 230px;
+    width: 50vw;
+    height: 50vh;
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 15px;
     background-size: cover;
     overflow: hidden;
-
 }
 
 .miniatura a {
@@ -268,13 +267,12 @@ body {
     margin-top: 0;
 }
 
-.botoes > a {
-    background: var(--colorFont) ;
+.botoes>a {
+    background: var(--colorFont);
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    padding: 5px;   
-    
+    padding: 5px;
 }
 
 .foto-trabalhos {
@@ -437,9 +435,7 @@ body {
         border-radius: 4px;
         font-size: 12px;
         margin: 5px;
-        
     }
-    
     .btnSkills a {
         text-decoration: none;
         color: white;
