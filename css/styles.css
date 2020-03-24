@@ -223,8 +223,8 @@ body {
 
 .miniatura {
     display: block;
-    width: 630px;
-    height: 430px;
+    width: 600px;
+    height:400px;
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -395,14 +395,7 @@ body {
         max-width: 100%;
         margin: 0;
     }
-    .miniatura {
-        width: 100%;
-        background-size: auto 100%;
-        background-size: cover;
-    }
-    .blackbox {
-        opacity: 0.8;
-    }
+    
     .menujs {
         height: auto;
         margin-bottom: 5%;
@@ -441,5 +434,9 @@ body {
         text-decoration: none;
         color: white;
         padding: 5px;
+    }
+    .miniatura {        
+        width: 80vw;
+        height: 45vh;
     }
 }
