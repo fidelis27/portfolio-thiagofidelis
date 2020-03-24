@@ -436,7 +436,7 @@ body {
         padding: 5px;
     }
     .miniatura {        
-        width: 80vw;
-        height: 45vh;
+        width: 300px;
+        height: 200px ;
     }
 }
