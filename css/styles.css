@@ -19,11 +19,16 @@ body {
 }
 
 .nav {
+    top: 0;
+    right: 0;
     height: 50px;
     color: white;
-    background-color: 191920;
+    background-color: #141419;
     animation-name: nav;
     animation-duration: 2s;
+    position: fixed;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    width: 100%;
 }
 
 .nav ul {
