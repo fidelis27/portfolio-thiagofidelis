@@ -230,8 +230,8 @@ body {
 
 .miniatura {
     display: block;
-    width: 600px;
-    height: 400px;
+    width: 900px;
+    height: 500px;
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -267,6 +267,7 @@ body {
     color: var(--colorFont);
     text-transform: uppercase;
     margin-top: 0;
+    padding-top: 120px;
 }
 
 .blackbox-text h2 {
